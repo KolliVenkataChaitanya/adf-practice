@@ -5,6 +5,10 @@
 			"KeyVaultName": {
 				"type": "string",
 				"value": "oct-kv-qa"
+			},
+			"StgAccName": {
+				"type": "string",
+				"value": "octstgaccqa"
 			}
 		}
 	},
