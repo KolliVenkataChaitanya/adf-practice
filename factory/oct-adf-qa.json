@@ -1,0 +1,12 @@
+{
+	"name": "oct-adf-qa",
+	"properties": {
+		"globalParameters": {
+			"KeyVaultName": {
+				"type": "string",
+				"value": "oct-kv-qa"
+			}
+		}
+	},
+	"location": "eastus"
+}
