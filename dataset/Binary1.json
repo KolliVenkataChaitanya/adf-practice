@@ -1,0 +1,34 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gen2_ls_dynamic",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"StgAccName": {
+					"value": "@dataset().stgaccName",
+					"type": "Expression"
+				},
+				"KeyVaultName": {
+					"value": "@dataset().kvName",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"stgaccName": {
+				"type": "string"
+			},
+			"kvName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			}
+		}
+	}
+}
