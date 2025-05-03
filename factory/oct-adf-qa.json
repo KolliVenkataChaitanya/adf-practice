@@ -1,9 +1,0 @@
-{
-	"name": "oct-adf-qa",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "f99a361c-deb0-45ae-a9a9-411cdbb14f82",
-		"tenantId": "73b470cc-8fcd-41b0-9e06-1670313e6b86"
-	}
-}
