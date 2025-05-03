@@ -1,5 +1,13 @@
 {
 	"name": "oct-adf-dev",
+	"properties": {
+		"globalParameters": {
+			"KeyVaultName": {
+				"type": "string",
+				"value": "oct-kv-dev"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
