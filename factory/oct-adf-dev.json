@@ -1,0 +1,21 @@
+{
+	"name": "oct-adf-dev",
+	"properties": {
+		"globalParameters": {
+			"KeyVaultName": {
+				"type": "string",
+				"value": "oct-kv-dev"
+			},
+			"StgAccName": {
+				"type": "string",
+				"value": "octstgaccdev"
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "12dd74e7-5fff-4d70-aeec-01c072ba05d4",
+		"tenantId": "73b470cc-8fcd-41b0-9e06-1670313e6b86"
+	}
+}

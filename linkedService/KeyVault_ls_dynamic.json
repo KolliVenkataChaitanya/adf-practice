@@ -1,0 +1,15 @@
+{
+	"name": "KeyVault_ls_dynamic",
+	"properties": {
+		"parameters": {
+			"KevVaultName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "@{concat('https://',linkedService().KevVaultName,'.vault.azure.net/')}"
+		}
+	}
+}
